@@ -1,0 +1,11 @@
+{
+  "alwaysUpdateLinks": true,
+  "tabSize": 4,
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "showLineNumber": false,
+  "foldIndent": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "promptDelete": false
+}
