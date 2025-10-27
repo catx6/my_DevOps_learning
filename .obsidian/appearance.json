@@ -1,6 +1,7 @@
 {
   "accentColor": "#755cf5",
   "baseFontSize": 18,
-  "interfaceFontFamily": "",
-  "cssTheme": "AnuPpuccin"
+  "interfaceFontFamily": "Source Code Pro",
+  "cssTheme": "Catppuccin",
+  "textFontFamily": "Source Code Pro"
 }
