@@ -4,40 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "3896beb6bdba1f7a",
+        "id": "710283595065111d",
         "type": "tabs",
         "children": [
           {
-            "id": "4beff92dc27a13c8",
+            "id": "bae254da75d32206",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ИНСТРУМЕНТАРИЙ/DOCKER/DockerFile.md",
+                "file": "отчет.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DockerFile"
-            }
-          },
-          {
-            "id": "83c63c5ab9cab700",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://chat.qwen.ai/c/51d37354-89c2-4efe-8223-301cee06fd39",
-                "title": "Qwen",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Qwen"
+              "title": "отчет"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,47 +147,50 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "83c63c5ab9cab700",
+  "active": "bae254da75d32206",
   "lastOpenFiles": [
-    "ИНСТРУМЕНТАРИЙ/DOCKER/DockerFile.md",
-    "отчет.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/практика Docker.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Docker Hub.md",
-    "разбор вопросов.md",
-    "Untitled.md",
-    "Pasted image 20251027110428.png",
-    "Untitled Kanban.md",
-    "ИНСТРУМЕНТАРИЙ/nginx",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Image.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/volume.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Network.md",
-    "СЕТИ/CIDR.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Docker Engine.md",
-    "ОС/файловая система.md",
-    "дополнительно.md",
-    "ИНСТРУМЕНТАРИЙ/инструментарий.md",
     "DevOps.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/DOCKER.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Docker Swarm.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/GIT.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Container.md",
-    "ИНСТРУМЕНТАРИЙ/GitLab/GitLab.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Docker-Compose.md",
+    "ОС/FS/FS types/btrfs.md",
+    "отчет.md",
+    "ОС/что такое ядро.md",
+    "ОС/кэш.md",
+    "ОС/FS/links.md",
     "ОС/ОС.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER",
-    "ОС/Виртуализация.md",
-    "ИНСТРУМЕНТАРИЙ/GitLab",
-    "ИНСТРУМЕНТАРИЙ/патерн.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/практика/amend",
-    "ИНСТРУМЕНТАРИЙ/GIT/практика/main.go",
-    "ИНСТРУМЕНТАРИЙ/1/GIT/практика/dev.txt",
-    "ИНСТРУМЕНТАРИЙ/GIT/практика/commit.txt",
-    "ИНСТРУМЕНТАРИЙ/GIT/практика",
-    "ИНСТРУМЕНТАРИЙ/1/GIT/bash.sh",
-    "ИНСТРУМЕНТАРИЙ/1",
-    "Untitled.canvas"
+    "ОС/FS/файловая система.md",
+    "ОС/FS/FS types/ext4.md",
+    "ОС/FS/FS types/xfs.md",
+    "ОС/FS/FS types",
+    "ОС/FS/inode.md",
+    "ОС/kernel space/syscalls.md",
+    "ОС/процессы.md",
+    "ОС/железки/Boot.md",
+    "ОС/железки/DISK.md",
+    "ОС/железки/RAM.md",
+    "ОС/железки/CPU.md",
+    "ОС/железки",
+    "DevOps arch.canvas",
+    "Untitled.canvas",
+    "ИНСТРУМЕНТАРИЙ/Kubernetes/Ansible.md",
+    "ИНСТРУМЕНТАРИЙ/IaC/ansible.md",
+    "ИНСТРУМЕНТАРИЙ/CI_CD/CI_CD.md",
+    "ИНСТРУМЕНТАРИЙ/CI_CD/Jenkins.md",
+    "ИНСТРУМЕНТАРИЙ/CI_CD/Github Actions.md",
+    "ИНСТРУМЕНТАРИЙ/мониторинг/Loki.md",
+    "ИНСТРУМЕНТАРИЙ/мониторинг/prometheus/grafana.md",
+    "ИНСТРУМЕНТАРИЙ/мониторинг/prometheus/prometheus.md",
+    "ИНСТРУМЕНТАРИЙ/мониторинг/prometheus",
+    "ИНСТРУМЕНТАРИЙ/мониторинг/мониторинг.md",
+    "ИНСТРУМЕНТАРИЙ/мониторинг",
+    "ИНСТРУМЕНТАРИЙ/IaC",
+    "ИНСТРУМЕНТАРИЙ/CI_CD",
+    "ОС/VM",
+    "ИНСТРУМЕНТАРИЙ/Clouds",
+    "ОС/kernel space",
+    "ОС/FS",
+    "Pasted image 20251027110428.png"
   ]
 }

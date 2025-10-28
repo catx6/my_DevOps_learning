@@ -53,3 +53,8 @@ DockerFile - это инструкция для сборки [[Image]]
 `docker build -t app:version -f /path/to/dockerfile` -
 - `-t задает тег`
 - `-f указывает путь до dockerfile`
+
+также при сборке можно указать архитектуру через флаг 
+- `--platform linux/amd64`
+- `--platform linux/arm64`
+- `--platform linux/amd64`

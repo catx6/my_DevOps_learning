@@ -57,8 +57,7 @@ Docker - платформа контейнеризации, позволяюща
 6. [[Docker Hub]]
 7. [[volume]]
 8. [[Docker-Compose]]
-9. [[GitLab]]
-10. [[Docker Swarm]]
+
 
 ---
 
