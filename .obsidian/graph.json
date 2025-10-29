@@ -6,17 +6,88 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:ОС  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711927
+      }
+    },
+    {
+      "query": "path:СЕТИ  ",
+      "color": {
+        "a": 1,
+        "rgb": 11468544
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/DOCKER  ",
+      "color": {
+        "a": 1,
+        "rgb": 484451
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/GIT  ",
+      "color": {
+        "a": 1,
+        "rgb": 13728256
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/IaC path:ИНСТРУМЕНТАРИЙ/IaC  ",
+      "color": {
+        "a": 1,
+        "rgb": 327424
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/Clouds  ",
+      "color": {
+        "a": 1,
+        "rgb": 8423049
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/мониторинг  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/CI_CD  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/Kubernetes  ",
+      "color": {
+        "a": 1,
+        "rgb": 199277
+      }
+    },
+    {
+      "query": "path:ИНСТРУМЕНТАРИЙ/nginx  ",
+      "color": {
+        "a": 1,
+        "rgb": 2124544
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.70233196159122,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.8609375,
+  "lineSizeMultiplier": 1.04427083333333,
+  "collapse-forces": false,
+  "centerStrength": 0.526041666666667,
+  "repelStrength": 14.8958333333333,
+  "linkStrength": 0.583333333333333,
+  "linkDistance": 258,
+  "scale": 0.2080983589899911,
   "close": true
 }
