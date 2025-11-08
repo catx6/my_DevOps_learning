@@ -7,5 +7,6 @@
   "foldIndent": true,
   "readableLineLength": true,
   "strictLineBreaks": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheck": false
 }

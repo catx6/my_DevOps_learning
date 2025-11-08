@@ -5,79 +5,8 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:ОС  ",
-      "color": {
-        "a": 1,
-        "rgb": 16711927
-      }
-    },
-    {
-      "query": "path:СЕТИ  ",
-      "color": {
-        "a": 1,
-        "rgb": 11468544
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/DOCKER  ",
-      "color": {
-        "a": 1,
-        "rgb": 484451
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/GIT  ",
-      "color": {
-        "a": 1,
-        "rgb": 13728256
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/IaC path:ИНСТРУМЕНТАРИЙ/IaC  ",
-      "color": {
-        "a": 1,
-        "rgb": 327424
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/Clouds  ",
-      "color": {
-        "a": 1,
-        "rgb": 8423049
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/мониторинг  ",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/CI_CD  ",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/Kubernetes  ",
-      "color": {
-        "a": 1,
-        "rgb": 199277
-      }
-    },
-    {
-      "query": "path:ИНСТРУМЕНТАРИЙ/nginx  ",
-      "color": {
-        "a": 1,
-        "rgb": 2124544
-      }
-    }
-  ],
+  "collapse-color-groups": false,
+  "colorGroups": [],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -3,
@@ -88,6 +17,6 @@
   "repelStrength": 14.8958333333333,
   "linkStrength": 0.583333333333333,
   "linkDistance": 258,
-  "scale": 0.2080983589899911,
+  "scale": 0.31214753848498666,
   "close": true
 }

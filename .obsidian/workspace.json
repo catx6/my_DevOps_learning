@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "710283595065111d",
+        "id": "88c87a3327681ac8",
         "type": "tabs",
         "children": [
           {
-            "id": "bae254da75d32206",
+            "id": "42ba3e8cebf38be3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "ИНСТРУМЕНТАРИЙ/CI_CD/jenkins.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "jenkins"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PID",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229
+    "width": 200
   },
   "right": {
     "id": "3a791641f9bf90c9",
@@ -146,46 +151,46 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bae254da75d32206",
+  "active": "42ba3e8cebf38be3",
   "lastOpenFiles": [
+    "ИНСТРУМЕНТАРИЙ/Clouds/облака.md",
+    "ИНСТРУМЕНТАРИЙ/CI_CD/jenkins.md",
+    "ОС/FS/файловая система.md",
+    "ИНСТРУМЕНТАРИЙ/CI_CD",
+    "ИНСТРУМЕНТАРИЙ/monitoring/prometheus.md",
+    "вопросы на собеседовании DevOps.md",
+    "разбор вопросов.md",
     "отчет.md",
-    "ИНСТРУМЕНТАРИЙ/программирование/python/PYDocker.md",
-    "ИНСТРУМЕНТАРИЙ/программирование/python/python.md",
     "DevOps.md",
+    "ОС/утилиты/find.md",
+    "ОС/утилиты/утилиты.md",
+    "ИНСТРУМЕНТАРИЙ/monitoring",
+    "ИНСТРУМЕНТАРИЙ/Kubernetes/kubernetes.md",
     "ИНСТРУМЕНТАРИЙ/инструментарий.md",
+    "ИНСТРУМЕНТАРИЙ/nginx/nginx.md",
+    "ОС/kernel space/syscalls.md",
+    "Untitled.canvas",
+    "Untitled.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/GIT.md",
+    "СЕТИ/протоколы/UDP.md",
+    "ИНСТРУМЕНТАРИЙ/DOCKER/Docker-Compose.md",
+    "ИНСТРУМЕНТАРИЙ/программирование/bash/bash скрипты.md",
     "ИНСТРУМЕНТАРИЙ/программирование/bash",
+    "ОС/процессы.md",
+    "ОС/kernel space/потоки.md",
+    "ОС/users & groups.md",
+    "ОС/FS/inode.md",
+    "программирование/python/python.md",
+    "программирование/python/PYDocker.md",
+    "программирование/bash/bash скрипты.md",
+    "программирование/python",
+    "программирование/bash",
+    "программирование",
+    "DevOps arch.canvas",
+    "СЕТИ/сетевые утилиты",
     "ИНСТРУМЕНТАРИЙ/программирование/python",
     "ИНСТРУМЕНТАРИЙ/программирование",
-    "разбор вопросов.md",
-    "ОС/что такое ядро.md",
-    "ОС/FS/FS types/btrfs.md",
-    "ОС/FS/файловая система.md",
-    "ОС/ОС.md",
-    "Boot.md",
-    "ОС/kernel space/Systemd.md",
-    "ОС/kernel space/syscalls.md",
-    "ОС/FS/FS types/ext4.md",
-    "ОС/железки/RAM.md",
-    "ОС/железки/Boot.md",
-    "ОС/железки/CPU.md",
-    "ОС/железки/DISK.md",
-    "ОС/кэш.md",
-    "ОС/FS/links.md",
-    "ОС/FS/FS types/xfs.md",
     "ОС/FS/FS types",
-    "ОС/FS/inode.md",
-    "ОС/процессы.md",
-    "ОС/железки",
-    "DevOps arch.canvas",
-    "Untitled.canvas",
-    "ИНСТРУМЕНТАРИЙ/Kubernetes/Ansible.md",
-    "ИНСТРУМЕНТАРИЙ/IaC/ansible.md",
-    "ИНСТРУМЕНТАРИЙ/CI_CD/CI_CD.md",
-    "ИНСТРУМЕНТАРИЙ/мониторинг/prometheus",
-    "ИНСТРУМЕНТАРИЙ/мониторинг",
-    "ИНСТРУМЕНТАРИЙ/IaC",
-    "ИНСТРУМЕНТАРИЙ/CI_CD",
-    "ОС/VM",
     "Pasted image 20251027110428.png"
   ]
 }

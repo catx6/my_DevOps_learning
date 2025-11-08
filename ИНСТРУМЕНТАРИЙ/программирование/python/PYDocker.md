@@ -26,3 +26,54 @@ container.remove()
 ---
 
 ### образы
+```python
+# список образов
+client.images.list()
+# скачивание образа
+client.images.pull("nginx:latest")
+# создание образа из Dockerfile
+client.images.build(path=".", tag="app:tag")
+# удаление образа
+client.images.remove("app:tag")
+```
+
+---
+
+#### тома
+
+```python
+# создание тома
+vol = client.volumes.create(name="data_vol")
+# список
+client.volumes.list()
+# удаление
+vol.remove
+```
+
+---
+
+#### сети
+
+```python
+# создать сеть
+net = client.networks.create("mynet", driver="host")
+# подключить контейнер
+net.connect("web")
+# отключить
+net.disconnect("web")
+# удалить
+net.remove()
+```
+
+---
+
+#### логи и exec
+```python
+container = client.containers.get("web")
+
+# получить логи контейнера
+print(container.logs())
+
+# выполнить команду внутри контейнера
+exit_code, output = container.exec_run("ls /usr/share/nginx/html")
+```
