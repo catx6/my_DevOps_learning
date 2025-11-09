@@ -25,12 +25,12 @@ DevOps-инженер - специалист который
 - [[Виртуализация]] и виртуальные машины
 - [[DOCKER]], Docker-Compose
 #### CI/CD
-- Github Actions
-- Jenkins
+- [[Github Actions]]
+- [[jenkins]]
 - GitLab CI
 #### инфаструктура как код (IaC)
 - Terraform
-- ansible
+- [[Ansible]]
 - Puppet
 - Chef
 #### контейнеризация и оркестрация
@@ -39,7 +39,7 @@ DevOps-инженер - специалист который
 - minikube
 #### Мониторинг и Логирование
 - [[prometheus]]
-- grafana
+- [[Grafana]]
 - ELK/EFK
 - Loki
 #### Облака
@@ -58,7 +58,6 @@ DevOps-инженер - специалист который
 
 ### куда стоит заглянуть
 
-[[DevOps arch.canvas|DevOps arch]]
+
 [[отчет]]
-[[вопросы на собеседовании DevOps]]
 [[разбор вопросов]]
