@@ -11,10 +11,15 @@
             "id": "9abfc61ba5e98af6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "отчет.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "отчет"
             }
           }
         ]
@@ -148,14 +153,23 @@
   },
   "active": "9abfc61ba5e98af6",
   "lastOpenFiles": [
+    "ИНСТРУМЕНТАРИЙ/Kubernetes/вопросы по k8s.md",
+    "ИНСТРУМЕНТАРИЙ/Kubernetes/kubernetes.md",
+    "ИНСТРУМЕНТАРИЙ/кеширование/redis.md",
+    "ИНСТРУМЕНТАРИЙ/кеширование/кеширование.md",
+    "ОС/логирование.md",
+    "отчет.md",
+    "разбор вопросов.md",
+    "ИНСТРУМЕНТАРИЙ/кеширование",
+    "ОС/что такое ядро.md",
+    "ОС/процессы.md",
+    "DevOps.md",
     "СЕТИ/СЕТИ.md",
     "ИНСТРУМЕНТАРИЙ/Iac/Ansible.md",
     "ИНСТРУМЕНТАРИЙ/инструментарий.md",
-    "DevOps.md",
     "ИНСТРУМЕНТАРИЙ/программирование/python/Jinja.md",
     "ИНСТРУМЕНТАРИЙ/Clouds/AWS.md",
     "ИНСТРУМЕНТАРИЙ/Iac",
-    "отчет.md",
     "Untitled.canvas",
     "DevOps arch.canvas",
     "вопросы на собеседовании DevOps.md",
@@ -169,23 +183,14 @@
     "ИНСТРУМЕНТАРИЙ/Clouds/облака.md",
     "ОС/FS/файловая система.md",
     "ИНСТРУМЕНТАРИЙ/CI_CD",
-    "разбор вопросов.md",
     "ОС/утилиты/find.md",
-    "ОС/утилиты/утилиты.md",
     "ИНСТРУМЕНТАРИЙ/monitoring",
-    "ИНСТРУМЕНТАРИЙ/Kubernetes/kubernetes.md",
-    "ИНСТРУМЕНТАРИЙ/nginx/nginx.md",
-    "ОС/kernel space/syscalls.md",
-    "СЕТИ/протоколы/UDP.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/Docker-Compose.md",
-    "ИНСТРУМЕНТАРИЙ/программирование/bash/bash скрипты.md",
     "ИНСТРУМЕНТАРИЙ/программирование/bash",
     "программирование/python",
     "программирование/bash",
     "программирование",
     "СЕТИ/сетевые утилиты",
     "ИНСТРУМЕНТАРИЙ/программирование/python",
-    "ИНСТРУМЕНТАРИЙ/программирование",
     "Pasted image 20251027110428.png"
   ]
 }
