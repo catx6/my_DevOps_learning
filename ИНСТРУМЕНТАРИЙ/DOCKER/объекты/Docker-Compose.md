@@ -71,7 +71,7 @@ kubernetes -> Оркестратор, является промышленым и
 `service: ` - сам сервис к примеру `web`
 	`build: ` - описывает сборку
 	`context: ` - путь к Dockerfile
-	`dockerfile: ` - имя сборного [[dockerfile]]
+	`dockerfile: ` - имя сборного [[DockerFile]]
 `image: ` - или сборка с образом
 `container-name: ` - имя контейнера
 `ports: - 8080:8080` - порты с локального до контейнерного
