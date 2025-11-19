@@ -2,6 +2,7 @@
   "accentColor": "#755cf5",
   "baseFontSize": 18,
   "interfaceFontFamily": "Source Code Pro",
-  "cssTheme": "Catppuccin",
-  "textFontFamily": "JetBrains Mono"
+  "cssTheme": "Obsidianite",
+  "textFontFamily": "JetBrains Mono",
+  "theme": "obsidian"
 }

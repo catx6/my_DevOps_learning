@@ -13,16 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ИНСТРУМЕНТАРИЙ/GIT/темы/база.md",
+                "file": "отчет.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "база"
+              "title": "отчет"
+            }
+          },
+          {
+            "id": "f1fce66cb3715dfa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,31 +162,33 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9abfc61ba5e98af6",
+  "active": "f1fce66cb3715dfa",
   "lastOpenFiles": [
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/3 ветвление.md",
+    "отчет.md",
+    "разбор вопросов.md",
+    "ИНСТРУМЕНТАРИЙ/DOCKER/объекты/DockerFile.md",
+    "web",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/2 remote.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/1 база.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/GIT.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/10 cicd git.md",
     "СЕТИ/объяснения",
     "ИНСТРУМЕНТАРИЙ/DOCKER/объекты/Docker-Compose.md",
     "ИНСТРУМЕНТАРИЙ/DOCKER/объекты",
     "ИНСТРУМЕНТАРИЙ/DOCKER/объекты/Network.md",
     "ИНСТРУМЕНТАРИЙ/DOCKER/объекты/Image.md",
-    "ИНСТРУМЕНТАРИЙ/DOCKER/объекты/DockerFile.md",
     "ИНСТРУМЕНТАРИЙ/DOCKER/объекты/Docker Hub.md",
     "ИНСТРУМЕНТАРИЙ/DOCKER/объекты/Docker Engine.md",
     "ИНСТРУМЕНТАРИЙ/DOCKER/DOCKER.md",
     "ИНСТРУМЕНТАРИЙ/CI_CD/Gitlab.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/GIT.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/база.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/cicd git.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/git hooks.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/сабмодули.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/теги.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/истории.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/remote.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/откат.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/слияния.md",
-    "ИНСТРУМЕНТАРИЙ/GIT/темы/ветвление.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/9 git hooks.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/8 сабмодули.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/7 теги.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/6 истории.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/5 откат.md",
+    "ИНСТРУМЕНТАРИЙ/GIT/темы/4 слияния.md",
     "ИНСТРУМЕНТАРИЙ/GIT/темы",
-    "отчет.md",
     "ИНСТРУМЕНТАРИЙ/кеширование/кеширование.md",
     "ИНСТРУМЕНТАРИЙ/Kubernetes/kubernetes.md",
     "ИНСТРУМЕНТАРИЙ/Kubernetes/объекты/Volume.md",
@@ -189,8 +202,6 @@
     "ИНСТРУМЕНТАРИЙ/CI_CD",
     "ИНСТРУМЕНТАРИЙ/monitoring",
     "ИНСТРУМЕНТАРИЙ/программирование/bash",
-    "программирование/python",
-    "программирование/bash",
     "Pasted image 20251027110428.png"
   ]
 }
