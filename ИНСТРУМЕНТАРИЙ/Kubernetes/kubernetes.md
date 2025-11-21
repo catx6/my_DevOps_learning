@@ -216,7 +216,7 @@ kubectl get nodes
 minikube - утилита поднимающая кластер, используя драйвер docker, kvm, VirtualBox
 
 1. установка зависимостей
-	- kubectl - инструмент для общения с кластером
+	- [[kubectl]] - инструмент для общения с кластером
 	- minikube - сам менеджер
 	- виртуализация - docker или VM
 2. `minikube start --driver=docker`
@@ -257,3 +257,5 @@ spec:
 ```yaml
 kubectl scale deployment <name-deployment> --replicas 5
 ```
+
+[[практические]]
