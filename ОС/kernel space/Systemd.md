@@ -261,3 +261,70 @@ WantedBy=multi-user.target
 | **device**    | управление устройствами                        |
 | **slice**     | контроль ресурсов                              |
 | **scope**     | процессы не созданные systemd (docker, podman) |
+
+## service
+Service - главный тип юнитов
+```service
+[Unit]
+Descriptions=My App
+
+[Service]
+ExecStart=/usr/bin/app
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+
+| Параметр            | Что делает                    |
+| ------------------- | ----------------------------- |
+| `ExecStart=`        | команда запуска               |
+| `ExecStop=`         | команда остановки             |
+| `ExecReload=`       | команда reload                |
+| `User=`             | запуск под юзером             |
+| `Environment=`      | переменные                    |
+| `EnvironmentFile=`  | загрузка env файла            |
+| `WorkingDirectory=` | рабочая директория            |
+| `Restart=`          | политика перезапуска          |
+| `Type=`             | simple/oneshot/forking/notify |
+
+----
+
+## Timer
+timer - timer должен запускать service
+таймер НЕ содержит команду - он запускает другой юнит
+
+Backup.service
+```service
+[Unit]
+Description=Run backup
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/backup.sh
+```
+Backup.timer
+```timer
+[Unit]
+Description=Daily backups
+
+[Timer]
+OnCalendar=*-*-* 03:00
+Persistent=yes
+
+[Install]
+WantedBy=timers.target
+```
+
+----
+
+systemd - сам слушает порт, а сервис запускается при обращении
+app.socket
+```socket
+[Socket]
+ListenStream=8080
+Accept=no
+
+[Install]
+WantedBy=sockets.target
+```
