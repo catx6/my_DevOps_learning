@@ -124,3 +124,108 @@ func main() {
 
 ---
 
+# struct
+
+#### что такое структура
+struct - это набор полей, объединенных в один тип
+
+Аналог: *объект без методов или просто контейнер данных*
+```go
+type User struct {
+	Name string
+	Age int
+}
+```
+теперь `User` - новый тип
+
+---
+
+#### для чего нужны структуры
+1. для объединения данных в логическую сущность
+```go
+user := User{Name: "Tom", Age:20}
+```
+2. для описания моделей API / JSON
+```go
+type Product struct {
+	ID    int    'json:"id"'
+	Title string 'json:"title"'
+	Price float64 'json:"price"'
+}
+```
+3. для хранения конфигураций
+```go
+type Config struct {
+    Port int
+    DBUrl string
+}
+```
+4. для работы с БД (**ORM**, **SQL драйверы**)
+```go
+type Order struct {
+    ID     int
+    Amount float64
+}
+```
+5. как контейнер состояния в программах
+```go
+type Server struct {
+    DB *sql.DB
+    Logger *log.Logger
+}
+```
+---
+# инициализация структур
+1. через литерал
+```go
+u := User{"Tom", 18}
+```
+2. через именованные поля
+```go
+u := User{Name: "Tom", Age: 18}
+```
+3. через указатель
+```go
+u := &User{Name: "Tom", Age: 18}
+```
+
+----
+
+# Добавление методов
+Go не имеет классов но структуры могут иметь методы
+```go
+func (u User) SayHello() {
+	fmt.Println("Hello, ", u.Name)
+}
+```
+Или метод, меняющий данные:
+```go
+func (u *User) SetAge(age int) {
+    u.Age = age
+}
+```
+Метод с `*User` изменяет сам объект - как метод классa в Java
+
+#### передача struct: по значению и указателю
+По умолчанию:
+```go
+u1 := User{Name: "Tom", Age: 18}
+u2 := u1 // копия
+```
+`u2` - отдельный объект 
+чтобы передать одну сущность:
+```go
+u := &User{Name: "Tom"}
+```
+---
+```go
+type Address struct {
+    City string
+    Zip  int
+}
+
+type User struct {
+    Name string
+    Addr Address
+}
+```
